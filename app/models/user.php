@@ -7,7 +7,9 @@ class User extends baseModel{
     public int $id;
     public string $name;
     public string $email;
-
+public function  test(){
+    return;
+}
 
 function __construct(){
     parent::__construct();
